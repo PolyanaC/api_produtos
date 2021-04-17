@@ -11,5 +11,7 @@ public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 	 * Basta criar uma instância dessa interface e utilizaar os métodos disponíveis no nosso model
 	 * 
 	 */
+	
+	Produto findById(long id);
 
 }
